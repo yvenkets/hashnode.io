@@ -1,6 +1,6 @@
 ## How to configure Multisite in Nginx on Ubuntu 18
 
-Naing is a famous web server package. Here i am going to explain how to install nginx and configure multiple site on that single server.
+Nginx is a famous web server package. Here i am going to explain how to install nginx and configure multiple site on that single server.
 
 First we are going to upgarde and update the server.
 
