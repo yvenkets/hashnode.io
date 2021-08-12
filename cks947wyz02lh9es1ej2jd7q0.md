@@ -114,6 +114,7 @@ To install apache run the below command.
 sudo apt install apache2
 
 ``` 
+
 Output:
 
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1627671460903/WSaSie-io.png)
@@ -122,6 +123,7 @@ Output:
 
 - 
 To Start the service
+
 ```
 sudo systemctl start apache2
 
@@ -354,10 +356,12 @@ Output:
 
 - 
 Now we want to enable Php 7.4 with apache.
+
 ```
 sudo a2enmod php7.4
 
 ```
+
 Output:
 
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1627672727454/8-Lae_k_v.png)
@@ -372,6 +376,7 @@ We are download the magento source files from magento website and compose it usi
 sudo apt install composer 
 
 ``` 
+
 after the installation confirm by check the composer -v
 
 
@@ -450,7 +455,9 @@ Syntax : http://serverip/php.php
 
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1627673109349/FMHVP_WWP.png)
 
+
 ### 7. Install Mysql Server and create DB and User for Magento
+
 
 Setting up MySQL Server
 
@@ -518,13 +525,15 @@ Asking remove test databases
 press y
 
 - 
-Askingreload previlage to tables
+Asking reload previlage to tables
 
 > 
 press y
 
 
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1627673477436/KZoFfgUKS.png)
+
+
 
 Create MySQL Database and users for Magento the following actions done here step by step.
 
