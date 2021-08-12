@@ -23,6 +23,9 @@ First we want to remove the old version of docker
  sudo apt-get remove docker docker-engine docker.io containerd runc
 
 ``` 
+Output:
+
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1628798031523/GzuRjG3qM.png)
 
 - 
 Then update the os
@@ -44,6 +47,10 @@ Install the dependencies
     lsb-release
 
 ``` 
+Output:
+
+
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1628798096629/h2sG-n1QH.png)
 
 - 
 Add docker official GPG key 
@@ -53,7 +60,9 @@ Add docker official GPG key
  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
 
 ``` 
+Output:
 
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1628798151865/ENLN09Zaa.png)
 
 - 
 Use the following command to set up the stable repository.
@@ -65,6 +74,10 @@ echo \
   $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 
 ``` 
+Output:
+
+
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1628798194045/b6tc3X1PW.png)
 
 - 
 Again update the server
@@ -85,17 +98,10 @@ Install Docker Engine
 sudo apt-get install docker-ce docker-ce-cli containerd.io
 
 ``` 
+Output:
 
 
-- 
-To verify the installation deploy hello world dokcer.
-
-
-```
-sudo docker run hello-world
-
-``` 
-
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1628798310101/4ra_excNF.png)
 
 
 - 
@@ -108,7 +114,9 @@ First check the docker group is already created.
 sudo cat /etc/group 
 
 ``` 
+Output:
 
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1628798612365/SvOeU8HZx.png)
 
 - 
 Now you can see the docker group created inn the last few lines entry. if its not there create the group docker.
@@ -118,7 +126,9 @@ Now you can see the docker group created inn the last few lines entry. if its no
 sudo groupadd docker
 
 ``` 
+Output:
 
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1628798637647/HN2Qqt4dV.png)
 
 - 
 After that add your non root user to that docker group.
@@ -133,6 +143,9 @@ Syntax: sudo usermod −aG docker [non−root user]
 sudo usermod −aG docker ubuntu
 
 ``` 
+Output:
+
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1628798669527/caSUnHf_Y.png)
 
 - 
 After this enable the docker service on system startup.
@@ -147,7 +160,9 @@ Enable Docker service on system startup.
  sudo systemctl enable docker.service
  sudo systemctl enable containerd.service
 ``` 
+Output:
 
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1628798714105/QFUzqCVEV.png)
 
 - 
 To take effect all the configuration changes restart the server.
@@ -168,6 +183,9 @@ sample docker container. Docker provide hello world container for testing purpos
 ``` 
 This command downloads a test image and runs it in a container. When the container runs, it prints a message and exits.
 
+Output:
+
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1628798450340/8n8lMD-Ch.png)
 
 **Thats all guys... we are successfully installed docker.
 **
