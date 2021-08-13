@@ -7,6 +7,9 @@ In this article I am going to explain most using docker commands.
 If you want to know how to install docker check my previous article.
 
 
+%[https://venket.hashnode.dev/install-and-configure-docker-on-ubuntu]
+
+
 **1**. To Check the installed docker version
 
 
