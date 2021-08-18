@@ -66,7 +66,7 @@ You just open the link ... yeah your website content hosted online.
 
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1629278940339/Y3lOdOomM.png)
 
-### Optional ( Map a Custom Domain Name)
+### **Map a Custom Domain Name**
 
 **Domain Name  Registrar
 **
