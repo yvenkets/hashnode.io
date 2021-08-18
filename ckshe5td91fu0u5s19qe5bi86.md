@@ -1,4 +1,4 @@
-## Host a Static website content in Github Pages and map a custom Domain Name.
+## Host a Static website in GitHub Pages and map Your Domain Name
 
 **Github**
 GitHub is a code hosting platform for collaboration and version control.GitHub lets you (and others) work together on projects.
