@@ -90,6 +90,14 @@ COPY . /usr/share/nginx/html/
 sudo docker cp 09ca6feb6efc:/usr/local/apache2/logs/httpd.pid /home/ubuntu/
 
 ``` 
+    Run docker from image with port mapping
+
+
+```
+sudo docker run -t -i --name venketbio <contname> -d -p 80:80 589589/venketbio <imagename>
+
+``` 
+
 **11**. To start the container 
 
 
