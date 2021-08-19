@@ -90,7 +90,7 @@ COPY . /usr/share/nginx/html/
 sudo docker cp 09ca6feb6efc:/usr/local/apache2/logs/httpd.pid /home/ubuntu/
 
 ``` 
-    Run docker from image with port mapping
+ Run docker from image with port mapping
 
 
 ```
