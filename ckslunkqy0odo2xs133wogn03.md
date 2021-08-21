@@ -1,4 +1,4 @@
-## Import Your On-Premises Server and Launch the AWS EC2 Instance.
+## Import Your On-Premises Server and Launch as AWS EC2 Instance.
 
 ### What is VM Import/Export
 
