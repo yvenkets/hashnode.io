@@ -217,4 +217,12 @@ the kernel version, number of containers and images, etc.
 ```
 sudo docker info
 
+```
+26. To Commit Conatiner as Image for push to docker hub
+
+
+```
+docker commit [OPTIONS] CONTAINER [REPOSITORY[:TAG]]
+
 ``` 
+ 
