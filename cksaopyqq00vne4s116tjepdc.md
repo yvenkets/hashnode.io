@@ -218,7 +218,8 @@ the kernel version, number of containers and images, etc.
 sudo docker info
 
 ```
-26. To Commit Conatiner as Image for push to docker hub
+
+**26**.  To Commit Conatiner as Image for push to docker hub
 
 
 ```
@@ -226,3 +227,9 @@ docker commit [OPTIONS] CONTAINER [REPOSITORY[:TAG]]
 
 ``` 
  
+**27**.  Filter the docker container using port number stop and remove it.
+
+```
+docker rm $(docker stop $(docker ps -a -q --filter expose=8080/tcp))
+
+```
