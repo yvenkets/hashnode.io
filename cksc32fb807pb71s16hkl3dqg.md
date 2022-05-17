@@ -354,4 +354,9 @@ In the next hit or refresh it shows the app2 content in browser via port 80
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1628961696773/P21Gdf__y.png)
 
 
-Hurray ... We are configured successfully the load balancer configuration.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+Hurray ... We are configured successfully the load balancer configuration.
+
+
+Note: If you want to try custome application. you can get the sample applications thats are running in dfifrent ports.link given below
+
+[Github Repo](https://github.com/yvenkets/nginx_load_balancer_node-app)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
